@@ -103,8 +103,9 @@ color:lightcoral;
 cursor: pointer;
 }
 .persona {
- float:left;
+
  padding:2%;
+ clear:both;
 }
 
 .sitemap {
@@ -167,10 +168,44 @@ q {
   margin: 0 auto;
 }
  .future {
-   width:600px;
+   text-align:left;
+  width:600px;
+ }
+
+ .final-meez {
+   text-align:left;
+ }
+
+ .final-p-meez {
+   text-align: left;
  }
 
  hr {
    color:black;
 
  }
+
+
+.card-img-top-2 {
+  
+  vertical-align: center;
+  width:75%;
+  overflow: hidden;
+
+}
+
+.card-img-top-1 {
+  text-align: center;
+  width:100%;
+  overflow: hidden;
+}
+
+.column {
+  padding:10px;
+}
+
+.row {
+  display:flex;
+  justify-content: center;
+}
+
